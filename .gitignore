@@ -1,0 +1,16 @@
+.git/
+
+lua/lazy/
+lua/.luarc.json
+
+**/*.swp
+**/*.swo
+
+Session.vim
+
+.netrwhist
+
+*~
+
+lua/*.lua.bak
+lua/**/*.lua.bak
