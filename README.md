@@ -9,8 +9,8 @@ This repository houses my personal Neovim setup, managed with **Lazy** for fast,
 | Category | Plugin/Tool | Description |
 | :--- | :--- | :--- |
 | **Plugin Manager** | **Lazy** | A high-performance, asynchronous plugin manager written in Lua. |
-| **Color Scheme** | **everforest** | A beautiful, cozy, and highly readable dark color scheme. |
-| **Status Line** | **lualine** | A fast and highly customizable status line, using the `everforest` theme. |
+| **Color Scheme** | **Zenbones** | A collection of low-noise, contrast-based colorschemes, focusing on font variations. |
+| **Status Line** | **lualine** | A fast and highly customizable status line, configured to match the low-key **Zenbones** aesthetic. |
 | **File Explorer** | **neo-tree** | A modern file explorer, buffer, and Git status manager. |
 | **Syntax** | **nvim-treesitter** | Improved syntax highlighting and structural navigation based on tree-sitter grammars. |
 | **Fuzzy Finder** | **telescope** | A highly extendable fuzzy finder for files, buffers, help tags, and more. |
@@ -69,5 +69,6 @@ All configuration files are written in **Lua**.
 
 The structure mirrors your setup:
 * `init.lua`: The main entry point for Neovim.
+* `lua/vim-configs.lua`: Contains all **core Vim options** and **global settings**.
 * `lua/plugins.lua`: Defines which plugins **Lazy** should install.
 * `lua/plugins/`: Contains individual configuration files (e.g., `alpha.lua`, `telescope.lua`) that configure the corresponding plugin.
